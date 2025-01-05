@@ -107,12 +107,12 @@ export default function Popup({ onClose }) {
                         </div>
                     </form>
                 </div>
-                <div className="mt-6 sm:flex sm:gap-4">
+                <div className="mt-6">
                     <a
                         className="inline-block w-full rounded-lg bg-defaultskin-500 px-5 py-3 text-center text-sm font-semibold text-white sm:w-auto"
                         href="#"
                     >
-                        Depósitar
+                        Registrar
                     </a>
                 </div>
             </div>
