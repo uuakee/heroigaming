@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app_center {
+  width: 100%;
+  max-width: 430px;
+  height: 100%;
+  margin: 0 auto;
+  overflow-y: auto; /* Scroll interno */
+  position: relative; /* Evita que o conteúdo fique travado */
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  font-family: Arial;
+  border: none;
+}
