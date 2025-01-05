@@ -5,7 +5,7 @@ function Header() {
         <div className="bg-background-700/30 flex justify-between px-2 py-4 relative">
             <div className="left_side flex items-center gap-2">
                 <SidebarIcon />
-                <img src="src/assets/logo-01.png" alt="Logotype" className="h-[30px]" />
+                <img src="/storage/yz-br/logo-01.png" alt="Logotype" className="h-[30px]" />
             </div>
             <div className="right_side flex items-center gap-2">
                 <button className="bg-defaultskin-500 px-4 py-1 rounded-md items-center flex">
@@ -18,7 +18,7 @@ function Header() {
                         Registro
                     </a>
                     <img
-                        src="src/assets/gift_alert.gif"
+                        src="/storage/yz-br/gift_alert.gif"
                         className="absolute -top-3 -right-1 w-[20px]" 
                         alt="Gift Alert"
                     />
